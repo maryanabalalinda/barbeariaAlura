@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Checkbox</h1>
+  <div>
+    <p>Selecione uma ou mais opções</p>
+    <input type="checkbox" id="opcao1" name="op1" checked />
+    <label for="opcao1">Opção 1</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="opcao2" name="op2" />
+    <label for="opcao2">Opção 2</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="opcao3" name="op3" />
+    <label for="opcao3">Opção 3</label>
+  </div>
+
+  <hr>
+  <h1>Data</h1>
+  <label for="data">Seleciona a data</label>
+
+  <input type="date" id="data" name="trip-start" value="2023-07-2" min="2023-01-01" max="2023-12-31" />
+
+  <h1>Data e hora</h1>
+
+  <label for="meeting-time">Data com hora</label>
+
+  <input type="datetime-local" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00"
+    max="2018-06-14T00:00" />
+
+  <hr>
+  <h1>Email</h1>
+
+  <label for="email">Insira o email</label>
+  <input type="email" id="email" size="30" required />
+
+  <hr>
+  <h1>Número</h1>
+  <label for="numero">Insira um numero de 0 a 100</label>
+  <input type="number" id="tentacles" name="numero" min="00" max="100" />
+
+  <hr>
+  <h1>Password (Senha)</h1>
+  <label for="pass">Insira uma senha</label>
+  <input type="password" id="pass" name="password" minlength="8" />
+
+  <hr>
+  <p>Selecione uma opção</p>
+  <div>
+    <input type="radio" id="opcao1" name="op" value="opcao1" checked />
+    <label for="opcao1">Opção 1</label>
+  </div>
+
+  <div>
+    <input type="radio" id="opcao2" name="op" value="opcao2" />
+    <label for="opcao2">Opção 2</label>
+  </div>
+
+  <div>
+    <input type="radio" id="opcao3" name="op" value="opcao3" />
+    <label for="opcao3">Opção 3</label>
+  </div>  
+</body>
+
+</html>
